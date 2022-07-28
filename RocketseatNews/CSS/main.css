@@ -2,9 +2,14 @@ main {
   display: flex;
   background-color: var(--body-bg-color);
   height: 100vh;
-  max-width: 42vw;
+  max-width: 50vw;
+  min-width: 400px;
   padding: 0 21px;
   flex-direction: column;
   justify-content: center;
   z-index: 2;
+}
+
+main h2 {
+  color: var(--title-color);
 }
