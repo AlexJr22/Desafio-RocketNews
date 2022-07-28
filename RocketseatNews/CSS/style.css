@@ -8,3 +8,12 @@
   --form-color: #A8A8A8;
   --bg-button-color: #8257e5;
 }
+
+body {
+  display: flex;
+  background-color: var(--body-bg-color);
+  background-image: url('../Imgs/read_news.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 0% top;
+}
