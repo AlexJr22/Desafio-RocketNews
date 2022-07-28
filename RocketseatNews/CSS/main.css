@@ -4,14 +4,26 @@ main {
   display: flex;
   background-color: var(--body-bg-color);
   height: 100vh;
-  max-width: 45vw;
+  max-width: 47vw;
   min-width: 400px;
   padding: 0 21px;
   flex-direction: column;
-  justify-content: center;
   z-index: 2;
 }
 
 main h2 {
   color: var(--title-color);
+  margin-top: 9em;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+main h3 {
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+main > p {
+  font-weight: 300;
+  margin-bottom: 7px;
 }
