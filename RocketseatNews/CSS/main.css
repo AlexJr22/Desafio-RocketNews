@@ -27,3 +27,10 @@ main > p {
   font-weight: 300;
   margin-bottom: 7px;
 }
+
+main nav {
+  display: flex;
+}
+
+main img {
+}
