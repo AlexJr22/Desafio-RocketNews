@@ -11,9 +11,17 @@
 
 body {
   display: flex;
+  min-height: 100vh;
   background-color: var(--body-bg-color);
   background-image: url('../Imgs/read_news.jpg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: right 0% top;
+  background-position: center right;
+
 }
+
+header {
+  position: absolute;
+  z-index: 3;
+}
+
