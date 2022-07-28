@@ -20,3 +20,15 @@ header {
   z-index: 3;
 }
 
+#BG {
+  height: 100vh;
+  position: fixed;
+  right: 0px;
+  transform: scale(1.1);
+  z-index: 0;
+}
+
+footer {
+  position: absolute;
+  z-index: 4;
+}

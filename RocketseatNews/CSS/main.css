@@ -1,8 +1,10 @@
 main { 
+  color: white;
+  position: absolute;
   display: flex;
   background-color: var(--body-bg-color);
   height: 100vh;
-  max-width: 50vw;
+  max-width: 45vw;
   min-width: 400px;
   padding: 0 21px;
   flex-direction: column;
