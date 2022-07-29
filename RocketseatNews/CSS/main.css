@@ -13,21 +13,27 @@ main {
 
 main h2 {
   color: var(--title-color);
-  margin-top: 9em;
+  margin-top: 7em;
   font-weight: 700;
-  margin-bottom: 7px;
+  margin-bottom: 14px;
 }
 
 main h3 {
   font-weight: 500;
-  margin-bottom: 7px;
+  margin-bottom: 14px;
 }
 
 main > p {
   font-weight: 300;
-  margin-bottom: 7px;
+  margin-bottom: 3px;
 }
 
 main nav {
   display: flex;
+}
+
+#logo {
+  /* background-color: rgba(240, 248, 255, 0.233); */
+  height: 80%;
+  width: 80%;
 }

@@ -1,3 +1,7 @@
+#containerEmail {
+  margin-top: 14px;
+}
+
 .boxEmail {
   display: flex;
   align-items: center;
