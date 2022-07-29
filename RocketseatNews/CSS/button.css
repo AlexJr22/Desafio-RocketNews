@@ -1,0 +1,25 @@
+.boxEmail {
+  display: flex;
+  align-items: center;
+}
+
+#email {
+  position: relative;
+  height: 34px;
+  min-width: 90%;
+  border: 0;
+}
+
+#button {
+  display: inline-block;
+}
+
+#imgButton {
+  display: flex;
+  background-color: var(--bg-button-color);
+  padding: 5px;
+}
+
+#imgButton:active {
+  background-color: rgba(130, 87, 229, 0.521);
+}
